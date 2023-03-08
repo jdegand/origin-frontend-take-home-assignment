@@ -36,7 +36,7 @@ You will build a piece of our savings feature by creating the savings plan simul
 
 ### The Saving Goal Plan Simulation Screen
 
-![Saving Goal Plan Mockup Desktop]('./saving-goal-plan-desk.png')
+![Saving Goal Plan Mockup Desktop](src/saving-goal-plan-desk.png)
 
 You will build a screen where the user will simulate saving towards the "Buy a house" savings goal.
 In it, the users choose (i) the value they want to save and (ii) the date they plan to reach the goal.
