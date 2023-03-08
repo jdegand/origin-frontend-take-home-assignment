@@ -1,0 +1,211 @@
+/* App */
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+section {
+  padding: 20px 0 0 0;
+}
+
+input {
+  width: 100%;
+}
+
+label {
+  margin-block-start: 20px;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #fff;
+  height: 75px;
+  padding: 0 20px;
+}
+
+nav img {
+  width: 132px;
+  height: 32px;
+}
+
+main {
+  background: #fff;
+}
+
+.app__heading {
+  margin-block: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #1b31a8;
+  font-weight: 300;
+}
+
+.app__heading span {
+  font-weight: 700;
+}
+
+.app__button {
+  border: none;
+  padding: 10px;
+  background: #1b31a8;
+  color: #fff;
+  font-weight: bolder;
+  text-transform: capitalize;
+  border-radius: 40px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 32px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.form__div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.app__saving__goal {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.app__saving__goal__div {
+  display: flex;
+  flex-direction: column;
+  place-items: flex-start;
+}
+
+.app__saving__goal h2 {
+  color: #1e2a32;
+}
+
+.app__saving__goal__img {
+  width: 64px;
+  height: 64px;
+}
+
+.app__saving__goal__div p {
+  color: #757575;
+  font-size: 18px;
+}
+
+#amount {
+  background-image: url(./assets/dollar-sign.svg);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: auto;
+  text-indent: 25px;
+  color: #4d6475;
+  font-weight: bolder;
+}
+
+#reachDate {
+  color: #1e2a32;
+}
+
+/* End App */
+
+/* Monthly Amount */
+
+.bolder {
+  font-weight: bolder;
+  color: #1e2a32;
+}
+
+.monthly__amount {
+  text-align: left;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  height: 200px;
+  margin: 30px auto;
+}
+
+.monthly__amount__total {
+  color: #0079ff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 28px;
+}
+
+.monthly__amount__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  padding: 20px;
+}
+
+.monthly__amount__top h3 {
+  color: #1e2a32;
+}
+
+.monthly__amount__bottom {
+  background: #f4f8fa;
+  height: 50%;
+  padding: 20px;
+}
+
+/* End Monthly Amount */
+
+@media (min-width: 768px) {
+  form {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 120px;
+    gap: 50px;
+    /*
+    padding: 0 120px;
+    gap: 50px;
+    */
+  }
+
+  .app {
+    border-radius: 8px;
+  }
+
+  .app__saving__goal {
+    padding: 0 120px;
+  }
+
+  .app__button {
+    width: 300px;
+  }
+
+  .monthly__amount {
+    width: 75%;
+  }
+
+  .monthly__amount__total {
+    font-size: 28px;
+  }
+
+  .monthly__amount__top {
+    padding: 20px 50px;
+  }
+
+  .monthly__amount__bottom {
+    padding: 20px 50px;
+  }
+
+  .monthly__amount__top h3 {
+    font-size: 24px;
+  }
+
+  .monthly__amount__total {
+    font-size: 36px;
+  }
+
+  .monthly__amount__bottom p {
+    font-size: 24px;
+  }
+}
